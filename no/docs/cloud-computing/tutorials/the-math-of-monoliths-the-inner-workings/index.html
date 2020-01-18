@@ -10,21 +10,21 @@
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
-<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
-<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
-<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
-<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
-<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
-<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/github.io/r13-dev-site/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/github.io/r13-dev-site/favicons/android-192x192.png" sizes="192x192">
 
 <title>Matten til monolitter: Drivverket | Regolith</title><meta property="og:title" content="Matten til monolitter: Drivverket" />
 <meta property="og:description" content="En kort oppsummering av denne siden. Tekst kan **utheves** sller skrives i _kursiv_ og kan ha flere avsnitt.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/no/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings/" />
+<meta property="og:url" content="https://kgilmer/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings/" />
 <meta property="article:published_time" content="2017-01-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-01-12T19:48:36-08:00" /><meta property="og:site_name" content="Regolith" />
 <meta itemprop="name" content="Matten til monolitter: Drivverket">
@@ -45,8 +45,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.5c27cf458842f18dbe8ab20d0a32c3736ab1ac71a3b393fe7b806a9707fcdf4d.css" as="style">
-<link href="/scss/main.min.5c27cf458842f18dbe8ab20d0a32c3736ab1ac71a3b393fe7b806a9707fcdf4d.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/github.io/r13-dev-site/scss/main.min.5c27cf458842f18dbe8ab20d0a32c3736ab1ac71a3b393fe7b806a9707fcdf4d.css" as="style">
+<link href="/github.io/r13-dev-site/scss/main.min.5c27cf458842f18dbe8ab20d0a32c3736ab1ac71a3b393fe7b806a9707fcdf4d.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -61,7 +61,7 @@
     <header>
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
-        <a class="navbar-brand" href="/no/">
+        <a class="navbar-brand" href="/github.io/r13-dev-site/no/">
 		<span class="navbar-logo"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg3861" width="32" height="32" viewBox="0 0 32 32"><defs id="defs3865"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath3877"><path d="M0 1567.127H1560.637V0H0z" id="path3875" /></clipPath></defs><g id="g3869" transform="matrix(0.04502922,0,0,-0.04502922,-18.438529,59.849926)"><g id="g3871"><g id="g3873" clip-path="url(#clipPath3877)"><g id="g3879" transform="translate(986.2234,818.9683)"><path d="m0 0c-75.72-35.88-161.365-25.672-225.389 19.23-72.324-31.545-141.013-56.576-197.909-71.903-.128-.035-.25-.066-.377-.1 86.695-99.281 231.864-133.353 356.852-74.126C26.211-82.814 86.301 2.663 101.911 97.083 80.012 56.06 45.25 21.443.0.0" style="fill:#dc322f;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path3881" /></g><g id="g3883" transform="translate(462.4304,829.2241)"><path d="M0 0C6.707 8.363 19.316 21.578 41.14 39.939 44.93 28.666 49.403 17.491 54.623 6.478 54.652 6.413 54.686 6.351 54.716 6.287 26.173.289 9.383-.517.0.0m651.611 279c-8.663 9.474-23.361 10.127-32.83 1.472-25.998-23.768-66-51.988-114.677-81.441-11.948 12.294-28.65 19.943-47.147 19.943-36.315.0-65.753-29.439-65.753-65.753.0-5.395.664-10.632 1.889-15.649-17.518-8.931-35.486-17.776-53.773-26.441-33.203-15.734-66.287-30.337-98.339-43.485-6.1 9.092-11.617 18.736-16.448 28.929-53.137 112.139-5.307 246.121 106.831 299.259 34.274 16.241 70.584 23.005 106.007 21.429-74.756 29.139-160.888 28.631-239.117-8.439C74.632 350.245 9.163 218.589 28.971 89.964-54.849 23.866-58.534-2.795-49.612-21.628c7.913-16.699 25.611-24.994 54.989-24.994 23.742.0 55.114 5.417 95.118 16.194 72.675 19.58 164.558 54.936 258.725 99.558 20.717 9.817 40.946 19.804 60.558 29.863 10.576-7.265 23.378-11.525 37.179-11.525 36.314.0 65.752 29.439 65.752 65.753.0.883-.032 1.758-.065 2.633 53.819 32.245 98.061 63.408 127.496 90.315 9.472 8.661 10.131 23.359 1.471 32.831" style="fill:#dc322f;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path3885" /></g></g></g></g></svg></span><span class="text-uppercase font-weight-bold">Regolith</span>
 	</a>
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
@@ -75,7 +75,7 @@
 				
 				
 				
-				<a class="nav-link active" href="/no/docs/" ><span class="active">Dokumentasjon</span></a>
+				<a class="nav-link active" href="/github.io/r13-dev-site/no/docs/" ><span class="active">Dokumentasjon</span></a>
 			</li>
 			
 			
@@ -102,7 +102,7 @@
 </a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 	
-	<a class="dropdown-item" href="/">English</a>
+	<a class="dropdown-item" href="/github.io/r13-dev-site/">English</a>
 	
 </div>
 			</li>
@@ -144,7 +144,7 @@
 </a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 	
-	<a class="dropdown-item" href="/">English</a>
+	<a class="dropdown-item" href="/github.io/r13-dev-site/">English</a>
 	
 </div>
     </div>
@@ -158,10 +158,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Dokumentasjon</a>
+    <a  href="/github.io/r13-dev-site/no/docs/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Dokumentasjon</a>
   </li>
   <ul>
-    <li class="collapse show" id="no-docs">
+    <li class="collapse show" id="github-io-r13-dev-site-no-docs">
       
       
       
@@ -175,23 +175,23 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/cross-platform/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Flerplattform</a>
+    <a  href="/github.io/r13-dev-site/no/docs/cross-platform/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Flerplattform</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-cross-platform">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-cross-platform">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-the-inside-of-monoliths-the-core-concepts" href="/no/docs/cross-platform/the-inside-of-monoliths-the-core-concepts/">Innsiden av monolitter</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-the-inside-of-monoliths-the-core-concepts" href="/github.io/r13-dev-site/no/docs/cross-platform/the-inside-of-monoliths-the-core-concepts/">Innsiden av monolitter</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-the-inside-of-recursion-how-does-it-work" href="/no/docs/cross-platform/the-inside-of-recursion-how-does-it-work/">Innsiden av rekursjon</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-the-inside-of-recursion-how-does-it-work" href="/github.io/r13-dev-site/no/docs/cross-platform/the-inside-of-recursion-how-does-it-work/">Innsiden av rekursjon</a>
       
       
       
@@ -204,17 +204,17 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/cross-platform/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
+    <a  href="/github.io/r13-dev-site/no/docs/cross-platform/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-cross-platform-tutorials">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-cross-platform-tutorials">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-tutorials-the-math-of-cryptography-how-does-it-work" href="/no/docs/cross-platform/tutorials/the-math-of-cryptography-how-does-it-work/">Matten til kryptografi</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-tutorials-the-math-of-cryptography-how-does-it-work" href="/github.io/r13-dev-site/no/docs/cross-platform/tutorials/the-math-of-cryptography-how-does-it-work/">Matten til kryptografi</a>
       
       
     </li>
@@ -226,66 +226,13 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-the-inside-of-monographs-how-does-it-work" href="/no/docs/cross-platform/the-inside-of-monographs-how-does-it-work/">Innsiden av monografer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-the-inside-of-monographs-how-does-it-work" href="/github.io/r13-dev-site/no/docs/cross-platform/the-inside-of-monographs-how-does-it-work/">Innsiden av monografer</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-in-depth-cryptography-detailed-spec" href="/no/docs/cross-platform/in-depth-cryptography-detailed-spec/">Detaljert om kryptografi</a>
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/cross-platform/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
-  </li>
-  <ul>
-    <li class="collapse " id="no-docs-cross-platform-examples">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-examples-in-depth-java-detailed-spec" href="/no/docs/cross-platform/examples/in-depth-java-detailed-spec/">Detaljert om Java</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-examples-the-math-of-recursion-the-inner-workings" href="/no/docs/cross-platform/examples/the-math-of-recursion-the-inner-workings/">Matten til rekursjon</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-examples-the-inside-of-java-the-core-concepts" href="/no/docs/cross-platform/examples/the-inside-of-java-the-core-concepts/">Innsiden av Java</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cross-platform-examples-the-math-of-go-the-inner-workings" href="/no/docs/cross-platform/examples/the-math-of-go-the-inner-workings/">Matten til Go</a>
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-    </li>
-  </ul>
-</ul>
-
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-in-depth-cryptography-detailed-spec" href="/github.io/r13-dev-site/no/docs/cross-platform/in-depth-cryptography-detailed-spec/">Detaljert om kryptografi</a>
       
       
       
@@ -298,82 +245,41 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/content-management/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Innholdshåndtering</a>
+    <a  href="/github.io/r13-dev-site/no/docs/cross-platform/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-content-management">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-cross-platform-examples">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-the-inside-of-cryptography-how-does-it-work" href="/no/docs/content-management/the-inside-of-cryptography-how-does-it-work/">Innsiden av kryptografi</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-examples-in-depth-java-detailed-spec" href="/github.io/r13-dev-site/no/docs/cross-platform/examples/in-depth-java-detailed-spec/">Detaljert om Java</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-the-math-of-monoliths-the-inner-workings" href="/no/docs/content-management/the-math-of-monoliths-the-inner-workings/">Matten til monolitter</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-examples-the-math-of-recursion-the-inner-workings" href="/github.io/r13-dev-site/no/docs/cross-platform/examples/the-math-of-recursion-the-inner-workings/">Matten til rekursjon</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-the-math-of-microservices-how-does-it-work" href="/no/docs/content-management/the-math-of-microservices-how-does-it-work/">Matten til mikroservicer</a>
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/content-management/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
-  </li>
-  <ul>
-    <li class="collapse " id="no-docs-content-management-tutorials">
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-examples-the-inside-of-java-the-core-concepts" href="/github.io/r13-dev-site/no/docs/cross-platform/examples/the-inside-of-java-the-core-concepts/">Innsiden av Java</a>
       
       
       
       
       
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-tutorials-the-inside-of-recursion-the-inner-workings" href="/no/docs/content-management/tutorials/the-inside-of-recursion-the-inner-workings/">Innsiden av rekursjon</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-tutorials-in-depth-microservices-the-core-concepts" href="/no/docs/content-management/tutorials/in-depth-microservices-the-core-concepts/">Detaljert om mikroservicer</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-tutorials-the-inside-of-cryptography-the-core-concepts" href="/no/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts/">Innsiden av kryptografi</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-tutorials-the-inside-of-microservices-the-core-concepts" href="/no/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts/">Innsiden av mikroservicer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cross-platform-examples-the-math-of-go-the-inner-workings" href="/github.io/r13-dev-site/no/docs/cross-platform/examples/the-math-of-go-the-inner-workings/">Matten til Go</a>
       
       
     </li>
   </ul>
 </ul>
 
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-content-management-the-inside-of-monographs-the-core-concepts" href="/no/docs/content-management/the-inside-of-monographs-the-core-concepts/">Innsiden av monografer</a>
       
       
     </li>
@@ -392,23 +298,29 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/cloud-computing/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Sky-data</a>
+    <a  href="/github.io/r13-dev-site/no/docs/content-management/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Innholdshåndtering</a>
   </li>
   <ul>
-    <li class="collapse show" id="no-docs-cloud-computing">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-content-management">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-in-depth-go-detailed-spec" href="/no/docs/cloud-computing/in-depth-go-detailed-spec/">Detaljert om Go</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-the-inside-of-cryptography-how-does-it-work" href="/github.io/r13-dev-site/no/docs/content-management/the-inside-of-cryptography-how-does-it-work/">Innsiden av kryptografi</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-in-depth-monoliths-detailed-spec" href="/no/docs/cloud-computing/in-depth-monoliths-detailed-spec/">Detaljert om monolitter</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-the-math-of-monoliths-the-inner-workings" href="/github.io/r13-dev-site/no/docs/content-management/the-math-of-monoliths-the-inner-workings/">Matten til monolitter</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-the-math-of-microservices-how-does-it-work" href="/github.io/r13-dev-site/no/docs/content-management/the-math-of-microservices-how-does-it-work/">Matten til mikroservicer</a>
       
       
       
@@ -421,29 +333,47 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/cloud-computing/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
+    <a  href="/github.io/r13-dev-site/no/docs/content-management/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-cloud-computing-examples">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-content-management-tutorials">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-examples-the-inside-of-monoliths-how-does-it-work" href="/no/docs/cloud-computing/examples/the-inside-of-monoliths-how-does-it-work/">Innsiden av monolitter</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-tutorials-the-inside-of-recursion-the-inner-workings" href="/github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-recursion-the-inner-workings/">Innsiden av rekursjon</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-examples-in-depth-cryptography-the-core-concepts" href="/no/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts/">Detaljert om kryptografi</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-tutorials-in-depth-microservices-the-core-concepts" href="/github.io/r13-dev-site/no/docs/content-management/tutorials/in-depth-microservices-the-core-concepts/">Detaljert om mikroservicer</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-examples-in-depth-go-how-does-it-work" href="/no/docs/cloud-computing/examples/in-depth-go-how-does-it-work/">Detaljert om Go</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-tutorials-the-inside-of-cryptography-the-core-concepts" href="/github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts/">Innsiden av kryptografi</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-tutorials-the-inside-of-microservices-the-core-concepts" href="/github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts/">Innsiden av mikroservicer</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-content-management-the-inside-of-monographs-the-core-concepts" href="/github.io/r13-dev-site/no/docs/content-management/the-inside-of-monographs-the-core-concepts/">Innsiden av monografer</a>
       
       
     </li>
@@ -462,65 +392,58 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/cloud-computing/tutorials/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
+    <a  href="/github.io/r13-dev-site/no/docs/cloud-computing/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Sky-data</a>
   </li>
   <ul>
-    <li class="collapse show" id="no-docs-cloud-computing-tutorials">
+    <li class="collapse show" id="github-io-r13-dev-site-no-docs-cloud-computing">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-tutorials-the-math-of-microservices-detailed-spec" href="/no/docs/cloud-computing/tutorials/the-math-of-microservices-detailed-spec/">Matten til mikroservicer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-in-depth-go-detailed-spec" href="/github.io/r13-dev-site/no/docs/cloud-computing/in-depth-go-detailed-spec/">Detaljert om Go</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-no-docs-cloud-computing-tutorials-the-math-of-monoliths-the-inner-workings" href="/no/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings/">Matten til monolitter</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-in-depth-monoliths-detailed-spec" href="/github.io/r13-dev-site/no/docs/cloud-computing/in-depth-monoliths-detailed-spec/">Detaljert om monolitter</a>
       
       
       
       
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-tutorials-the-math-of-java-the-inner-workings" href="/no/docs/cloud-computing/tutorials/the-math-of-java-the-inner-workings/">Matten til Java</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-tutorials-the-math-of-monographs-detailed-spec" href="/no/docs/cloud-computing/tutorials/the-math-of-monographs-detailed-spec/">Matten til monografer</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-tutorials-the-inside-of-microservices-detailed-spec" href="/no/docs/cloud-computing/tutorials/the-inside-of-microservices-detailed-spec/">Innsiden av mikroservicer</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-tutorials-the-inside-of-go-the-inner-workings" href="/no/docs/cloud-computing/tutorials/the-inside-of-go-the-inner-workings/">Innsiden av Go</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-tutorials-in-depth-monographs-the-inner-workings" href="/no/docs/cloud-computing/tutorials/in-depth-monographs-the-inner-workings/">Detaljert om monografer</a>
-      
-      
-    </li>
-  </ul>
-</ul>
 
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/github.io/r13-dev-site/no/docs/cloud-computing/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
+  </li>
+  <ul>
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-cloud-computing-examples">
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-cloud-computing-the-inside-of-java-how-does-it-work" href="/no/docs/cloud-computing/the-inside-of-java-how-does-it-work/">Innsiden av Java</a>
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-examples-the-inside-of-monoliths-how-does-it-work" href="/github.io/r13-dev-site/no/docs/cloud-computing/examples/the-inside-of-monoliths-how-does-it-work/">Innsiden av monolitter</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-examples-in-depth-cryptography-the-core-concepts" href="/github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts/">Detaljert om kryptografi</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-examples-in-depth-go-how-does-it-work" href="/github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-go-how-does-it-work/">Detaljert om Go</a>
       
       
     </li>
@@ -539,58 +462,53 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/api-reference/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">API-referanse</a>
+    <a  href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-api-reference">
-      
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/api-reference/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
-  </li>
-  <ul>
-    <li class="collapse " id="no-docs-api-reference-examples">
+    <li class="collapse show" id="github-io-r13-dev-site-no-docs-cloud-computing-tutorials">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-examples-the-math-of-monographs-how-does-it-work" href="/no/docs/api-reference/examples/the-math-of-monographs-how-does-it-work/">Matten til monografer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-the-math-of-microservices-detailed-spec" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-math-of-microservices-detailed-spec/">Matten til mikroservicer</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-examples-in-depth-monoliths-detailed-spec" href="/no/docs/api-reference/examples/in-depth-monoliths-detailed-spec/">Detaljert om monolitter</a>
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-the-math-of-monoliths-the-inner-workings" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings/">Matten til monolitter</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-examples-the-inside-of-cryptography-detailed-spec" href="/no/docs/api-reference/examples/the-inside-of-cryptography-detailed-spec/">Innsiden av kryptografi</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-the-math-of-java-the-inner-workings" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-math-of-java-the-inner-workings/">Matten til Java</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-examples-the-math-of-java-how-does-it-work" href="/no/docs/api-reference/examples/the-math-of-java-how-does-it-work/">Matten til Java</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-the-math-of-monographs-detailed-spec" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-math-of-monographs-detailed-spec/">Matten til monografer</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-examples-the-inside-of-microservices-how-does-it-work" href="/no/docs/api-reference/examples/the-inside-of-microservices-how-does-it-work/">Innsiden av mikroservicer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-the-inside-of-microservices-detailed-spec" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-inside-of-microservices-detailed-spec/">Innsiden av mikroservicer</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-the-inside-of-go-the-inner-workings" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-inside-of-go-the-inner-workings/">Innsiden av Go</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-tutorials-in-depth-monographs-the-inner-workings" href="/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/in-depth-monographs-the-inner-workings/">Detaljert om monografer</a>
       
       
     </li>
@@ -602,13 +520,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-the-math-of-monoliths-detailed-spec" href="/no/docs/api-reference/the-math-of-monoliths-detailed-spec/">Matten til monolitter</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-api-reference-the-inside-of-java-the-inner-workings" href="/no/docs/api-reference/the-inside-of-java-the-inner-workings/">Innsiden av Java</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-cloud-computing-the-inside-of-java-how-does-it-work" href="/github.io/r13-dev-site/no/docs/cloud-computing/the-inside-of-java-how-does-it-work/">Innsiden av Java</a>
       
       
     </li>
@@ -627,10 +539,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/big-data/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Big Data</a>
+    <a  href="/github.io/r13-dev-site/no/docs/api-reference/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">API-referanse</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-big-data">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-api-reference">
       
       
       
@@ -644,17 +556,59 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/big-data/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
+    <a  href="/github.io/r13-dev-site/no/docs/api-reference/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-big-data-examples">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-api-reference-examples">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-examples-the-math-of-monographs-how-does-it-work" href="/no/docs/big-data/examples/the-math-of-monographs-how-does-it-work/">Matten til monografer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-examples-the-math-of-monographs-how-does-it-work" href="/github.io/r13-dev-site/no/docs/api-reference/examples/the-math-of-monographs-how-does-it-work/">Matten til monografer</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-examples-in-depth-monoliths-detailed-spec" href="/github.io/r13-dev-site/no/docs/api-reference/examples/in-depth-monoliths-detailed-spec/">Detaljert om monolitter</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-examples-the-inside-of-cryptography-detailed-spec" href="/github.io/r13-dev-site/no/docs/api-reference/examples/the-inside-of-cryptography-detailed-spec/">Innsiden av kryptografi</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-examples-the-math-of-java-how-does-it-work" href="/github.io/r13-dev-site/no/docs/api-reference/examples/the-math-of-java-how-does-it-work/">Matten til Java</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-examples-the-inside-of-microservices-how-does-it-work" href="/github.io/r13-dev-site/no/docs/api-reference/examples/the-inside-of-microservices-how-does-it-work/">Innsiden av mikroservicer</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-the-math-of-monoliths-detailed-spec" href="/github.io/r13-dev-site/no/docs/api-reference/the-math-of-monoliths-detailed-spec/">Matten til monolitter</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-api-reference-the-inside-of-java-the-inner-workings" href="/github.io/r13-dev-site/no/docs/api-reference/the-inside-of-java-the-inner-workings/">Innsiden av Java</a>
       
       
     </li>
@@ -673,41 +627,87 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/no/docs/big-data/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
+    <a  href="/github.io/r13-dev-site/no/docs/big-data/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Big Data</a>
   </li>
   <ul>
-    <li class="collapse " id="no-docs-big-data-tutorials">
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-big-data">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/github.io/r13-dev-site/no/docs/big-data/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Eksempler</a>
+  </li>
+  <ul>
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-big-data-examples">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-tutorials-the-inside-of-microservices-detailed-spec" href="/no/docs/big-data/tutorials/the-inside-of-microservices-detailed-spec/">Innsiden av mikroservicer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-examples-the-math-of-monographs-how-does-it-work" href="/github.io/r13-dev-site/no/docs/big-data/examples/the-math-of-monographs-how-does-it-work/">Matten til monografer</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/github.io/r13-dev-site/no/docs/big-data/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hjelpeartikler</a>
+  </li>
+  <ul>
+    <li class="collapse " id="github-io-r13-dev-site-no-docs-big-data-tutorials">
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-tutorials-the-inside-of-cryptography-how-does-it-work" href="/no/docs/big-data/tutorials/the-inside-of-cryptography-how-does-it-work/">Innsiden av kryptografi</a>
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-tutorials-the-inside-of-microservices-detailed-spec" href="/github.io/r13-dev-site/no/docs/big-data/tutorials/the-inside-of-microservices-detailed-spec/">Innsiden av mikroservicer</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-tutorials-the-math-of-cryptography-the-inner-workings" href="/no/docs/big-data/tutorials/the-math-of-cryptography-the-inner-workings/">Matten til kryptografi</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-tutorials-the-inside-of-cryptography-how-does-it-work" href="/github.io/r13-dev-site/no/docs/big-data/tutorials/the-inside-of-cryptography-how-does-it-work/">Innsiden av kryptografi</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-tutorials-the-inside-of-java-detailed-spec" href="/no/docs/big-data/tutorials/the-inside-of-java-detailed-spec/">Innsiden av Java</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-tutorials-the-math-of-cryptography-the-inner-workings" href="/github.io/r13-dev-site/no/docs/big-data/tutorials/the-math-of-cryptography-the-inner-workings/">Matten til kryptografi</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-tutorials-in-depth-go-the-inner-workings" href="/no/docs/big-data/tutorials/in-depth-go-the-inner-workings/">Detaljert om Go</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-tutorials-the-inside-of-java-detailed-spec" href="/github.io/r13-dev-site/no/docs/big-data/tutorials/the-inside-of-java-detailed-spec/">Innsiden av Java</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-tutorials-in-depth-go-the-inner-workings" href="/github.io/r13-dev-site/no/docs/big-data/tutorials/in-depth-go-the-inner-workings/">Detaljert om Go</a>
       
       
     </li>
@@ -719,7 +719,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-no-docs-big-data-the-math-of-monographs-how-does-it-work" href="/no/docs/big-data/the-math-of-monographs-how-does-it-work/">Matten til monografer</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-github-io-r13-dev-site-no-docs-big-data-the-math-of-monographs-how-does-it-work" href="/github.io/r13-dev-site/no/docs/big-data/the-math-of-monographs-how-does-it-work/">Matten til monografer</a>
       
       
     </li>
@@ -809,28 +809,28 @@
 
 
 <li class="breadcrumb-item" >
-	<a href="/no/docs/">Dokumentasjon</a>
+	<a href="https://kgilmer/github.io/r13-dev-site/no/docs/">Dokumentasjon</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item" >
-	<a href="/no/docs/cloud-computing/">Sky-data</a>
+	<a href="https://kgilmer/github.io/r13-dev-site/no/docs/cloud-computing/">Sky-data</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item" >
-	<a href="/no/docs/cloud-computing/tutorials/">Hjelpeartikler</a>
+	<a href="https://kgilmer/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/">Hjelpeartikler</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="/no/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings/">Matten til monolitter</a>
+	<a href="https://kgilmer/github.io/r13-dev-site/no/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings/">Matten til monolitter</a>
 </li>
 
 	</ol>
@@ -1262,7 +1262,7 @@ This is a warning with a title.
 
 
 
-<script src="/js/main.min.29b0315468c00226fa6f4556a9cebc0ac4fe1ce1457a01b22c0a06b329877383.js" integrity="sha256-KbAxVGjAAib6b0VWqc68CsT&#43;HOFFegGyLAoGsymHc4M=" crossorigin="anonymous"></script>
+<script src="/github.io/r13-dev-site/js/main.min.68f7e1b3cb4fff736cc87eae86a012ff95f5130f423ceb0fb6a8a2359982c2a7.js" integrity="sha256-aPfhs8tP/3NsyH6uhqAS/5X1Ew9CPOsPtqiiNZmCwqc=" crossorigin="anonymous"></script>
 
 
 
