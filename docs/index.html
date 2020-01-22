@@ -243,7 +243,7 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/r13-dev-site/docs/interface/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">The Interface</a>
+    <a  href="/r13-dev-site/docs/interface/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Interface</a>
   </li>
   <ul>
     <li class="collapse show" id="r13-dev-site-docs-interface">
@@ -300,12 +300,6 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-customize-overview" href="/r13-dev-site/docs/customize/overview/">Overview</a>
-      
-      
-      
-      
-      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-customize-look" href="/r13-dev-site/docs/customize/look/">Look</a>
       
       
@@ -318,42 +312,19 @@
       
       
       
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-customize-compositors" href="/r13-dev-site/docs/customize/compositors/">Compositors</a>
+      
+      
+      
+      
+      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-customize-components" href="/r13-dev-site/docs/customize/components/">Components</a>
       
       
-    </li>
-  </ul>
-</ul>
-
       
       
       
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/r13-dev-site/docs/decompose/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Decompose</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="r13-dev-site-docs-decompose">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-decompose-components" href="/r13-dev-site/docs/decompose/components/">Components</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-decompose-packages" href="/r13-dev-site/docs/decompose/packages/">Packages</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-customize-packages" href="/r13-dev-site/docs/customize/packages/">Packages</a>
       
       
     </li>
@@ -537,17 +508,56 @@
 <div class="td-content">
 	<h1>Documentation</h1>
 	
-	
-
-<div class="pageinfo pageinfo-primary">
-<p>This is a placeholder page that shows you how to use this template site.</p>
-
-</div>
-
-<p>This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project.</p>
-<p>For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the <a href="https://docsy.dev/docs/">Docsy User Guide</a>, which lives in the <a href="https://github.com/google/docsy/tree/master/userguide">Docsy theme repo</a> if you'd like to copy its docs section.</p>
-<p>Other content such as marketing material, case studies, and community updates should live in <a href="/community/">Community</a> pages.</p>
-<p>Find out how to use the Docsy theme in the <a href="https://docsy.dev/docs/">Docsy User Guide</a>. You can learn more about how to organize your documentation (and how we organized this site) in <a href="https://docsy.dev/docs/best-practices/organizing-content/">Organizing Your Content</a>.</p>
+	<p>This site contains the information to use the Regolith desktop environment.  The content is structured in an order inteded for new users, but feel free to skip around as you see fit.  Feedback is always welcome and we appriciate any tips on how the documentation can be more complete, easy to read, and effective.</p>
+<h2 id="terminology">Terminology</h2>
+<p>Before diving in it's good to define some terms to avoid confusion.</p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keybinding</td>
+<td>A mapping between a set of key presses to a specific action performed by the desktop environment or application.</td>
+</tr>
+<tr>
+<td>Desktop Environment</td>
+<td>A collection of software programs that used as a whole allow a user to interact with a computer using a keyboard, mouse, and monitor.</td>
+</tr>
+<tr>
+<td>Bar</td>
+<td>A passive UI component typically placed at the top or bottom of the screen used to provide system information to the user.</td>
+</tr>
+<tr>
+<td>Launcher</td>
+<td>An active UI component a user will invoke to perform an action, such as navigate to a window or launch a program.</td>
+</tr>
+<tr>
+<td>Workspace</td>
+<td>A collection of windows all present together on the same computer monitor.</td>
+</tr>
+<tr>
+<td>Window</td>
+<td>A program presents a graphical interface to users via windows. Some programs are text based and do not create windows of their own.</td>
+</tr>
+<tr>
+<td>Window Manager</td>
+<td>A program that organizes windows on behalf of the user.</td>
+</tr>
+<tr>
+<td>Tile</td>
+<td>Another word for a window used by tiling window managers.</td>
+</tr>
+<tr>
+<td>Floating Window</td>
+<td>A window that does not share bounds with other windows in a workspace can be placed on top of them. This is the default layout for traditional window managers.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="table-of-contents">Table of Contents</h2>
 
         <div class="section-index">
     
@@ -565,16 +575,12 @@
             
         
             
-        
-            
                 <div class="entry">
                     <h5>
                         <a href="/r13-dev-site/docs/overview/">Overview</a>
                     </h5>
-                    <p>Here's where your user finds out if your project is for them.</p>
+                    <p>What is Regolith?</p>
                 </div>
-            
-        
             
         
             
@@ -594,10 +600,8 @@
                     <h5>
                         <a href="/r13-dev-site/docs/getting-started/">Getting Started</a>
                     </h5>
-                    <p>What does your user need to know to try your project?</p>
+                    <p>Summary of installation methods for Regolith.</p>
                 </div>
-            
-        
             
         
             
@@ -609,8 +613,10 @@
                     <h5>
                         <a href="/r13-dev-site/docs/interface/">The Interface</a>
                     </h5>
-                    <p>See your project in action!</p>
+                    <p>Details about the Regolith interface.</p>
                 </div>
+            
+        
             
         
             
@@ -626,19 +632,12 @@
                     <h5>
                         <a href="/r13-dev-site/docs/customize/">Customize</a>
                     </h5>
-                    <p>What does your user need to know to try your project?</p>
+                    <p>Customize Regolith to suit you.</p>
                 </div>
             
         
             
         
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/r13-dev-site/docs/decompose/">Decompose</a>
-                    </h5>
-                    <p>What does your user need to know to try your project?</p>
-                </div>
             
         
             
@@ -735,7 +734,7 @@
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified January 12, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/48c8c5fc3dc953b351ba1d679a25cf5e7f4a856c">Add new Hugo-based site currently in development. WIP. (48c8c5f)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 20, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/943ee5a9009d1ff1b7d47f40b4f0bfe03fc549be">First pass at Interface section. (943ee5a)</a>
 </div>
 </div>
 
