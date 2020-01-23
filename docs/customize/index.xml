@@ -267,9 +267,17 @@ $ regolith-look refresh
 &lt;h3 id=&#34;git-repositories&#34;&gt;Git Repositories&lt;/h3&gt;
 &lt;p&gt;The source code associated with Regolith packages is hosted on &lt;a href=&#34;https://github.com/regolith-linux&#34;&gt;Regolith Linux&#39;s GitHub organization&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;installer-isos&#34;&gt;Installer ISOs&lt;/h3&gt;
-&lt;p&gt;The installer is produced using the &lt;a href=&#34;https://launchpad.net/cubic&#34;&gt;Cubic tool&lt;/a&gt; and providing the target ISO files as manual uploads to the Regolith Linux GitHub org.&lt;/p&gt;
+&lt;p&gt;The installer is produced using the &lt;a href=&#34;https://launchpad.net/cubic&#34;&gt;Cubic tool&lt;/a&gt; and providing the target ISO files as manual uploads to the Regolith Linux GitHub org.  The &lt;a href=&#34;https://github.com/regolith-linux/regolith-cubic-config&#34;&gt;README in &lt;code&gt;regolith-cubic-conf&lt;/code&gt;&lt;/a&gt; has more details.&lt;/p&gt;
 &lt;h2 id=&#34;build&#34;&gt;Build&lt;/h2&gt;
 &lt;p&gt;Regolith packages can be built, signed, and staged from the &lt;code&gt;regolith-builder&lt;/code&gt; repository.  See the &lt;a href=&#34;https://github.com/regolith-linux/regolith-builder&#34;&gt;project&#39;s README&lt;/a&gt; for details.&lt;/p&gt;
+&lt;h2 id=&#34;package--between-stock-ubuntu-and-regolith-linux&#34;&gt;Package Δ between Stock Ubuntu and Regolith Linux&lt;/h2&gt;
+&lt;p&gt;When installing Regolith via PPA, the user has control and visibility over all package changes via their package installation tool of choice, likely &lt;code&gt;apt&lt;/code&gt;, &lt;code&gt;dpkg&lt;/code&gt;, or &lt;code&gt;synaptic&lt;/code&gt;.  However when installing Regolith via the Ubuntu Installer, the user does not see what packages are installed as part of that process.  For Regolith 1.2, the following packages are removed from stock Ubuntu:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ubuntu-session&lt;/li&gt;
+&lt;li&gt;libreoffice-*&lt;/li&gt;
+&lt;li&gt;rythmbox-*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, any of these packages can be re-added by the user after installation using a variety of tools including the app store.&lt;/p&gt;
 
       </description>
     </item>

@@ -26,13 +26,13 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kgilmer.github.io/r13-dev-site/docs/customize/packages/" />
 <meta property="article:published_time" content="2017-01-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-01-21T20:23:06-08:00" /><meta property="og:site_name" content="Regolith" />
+<meta property="article:modified_time" content="2020-01-22T21:12:52-08:00" /><meta property="og:site_name" content="Regolith" />
 <meta itemprop="name" content="Packages">
 <meta itemprop="description" content="Learn how Regolith is put together.
 ">
 <meta itemprop="datePublished" content="2017-01-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-01-21T20:23:06-08:00" />
-<meta itemprop="wordCount" content="144">
+<meta itemprop="dateModified" content="2020-01-22T21:12:52-08:00" />
+<meta itemprop="wordCount" content="245">
 
 
 
@@ -353,23 +353,35 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/r13-dev-site/docs/tutorials/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Tutorials</a>
+    <a  href="/r13-dev-site/docs/howto/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">How To</a>
   </li>
   <ul>
-    <li class="collapse " id="r13-dev-site-docs-tutorials">
+    <li class="collapse " id="r13-dev-site-docs-howto">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-tutorials-multi-bear" href="/r13-dev-site/docs/tutorials/multi-bear/">Multi-Bear Domicile Setup</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-howto-stage-configs" href="/r13-dev-site/docs/howto/stage-configs/">Stage config files</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-tutorials-tutorial2" href="/r13-dev-site/docs/tutorials/tutorial2/">Another Tutorial</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-howto-super-to-alt" href="/r13-dev-site/docs/howto/super-to-alt/">Change the super key mapping</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-howto-change-terminal" href="/r13-dev-site/docs/howto/change-terminal/">Change the default terminal</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-howto-time-format" href="/r13-dev-site/docs/howto/time-format/">Change the bar date/time format</a>
       
       
     </li>
@@ -404,13 +416,13 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-reference-configurations" href="/r13-dev-site/docs/reference/configurations/">Configuration Files</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-reference-configurations" href="/r13-dev-site/docs/reference/configurations/">Config Files</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-reference-configurations-copy" href="/r13-dev-site/docs/reference/configurations-copy/">Packages</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-reference-packages" href="/r13-dev-site/docs/reference/packages/">Packages</a>
       
       
     </li>
@@ -445,7 +457,13 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-policy-and-process-contributions" href="/r13-dev-site/docs/policy-and-process/contributions/">Policy and Process</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-policy-and-process-updates" href="/r13-dev-site/docs/policy-and-process/updates/">Updates</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-policy-and-process-contributions" href="/r13-dev-site/docs/policy-and-process/contributions/">Contribute</a>
       
       
       
@@ -506,6 +524,7 @@
       </ul>
     </li>
     <li><a href="#build">Build</a></li>
+    <li><a href="#package--between-stock-ubuntu-and-regolith-linux">Package Δ between Stock Ubuntu and Regolith Linux</a></li>
   </ul>
 </nav>
 
@@ -590,9 +609,17 @@
 <h3 id="git-repositories">Git Repositories</h3>
 <p>The source code associated with Regolith packages is hosted on <a href="https://github.com/regolith-linux">Regolith Linux's GitHub organization</a>.</p>
 <h3 id="installer-isos">Installer ISOs</h3>
-<p>The installer is produced using the <a href="https://launchpad.net/cubic">Cubic tool</a> and providing the target ISO files as manual uploads to the Regolith Linux GitHub org.</p>
+<p>The installer is produced using the <a href="https://launchpad.net/cubic">Cubic tool</a> and providing the target ISO files as manual uploads to the Regolith Linux GitHub org.  The <a href="https://github.com/regolith-linux/regolith-cubic-config">README in <code>regolith-cubic-conf</code></a> has more details.</p>
 <h2 id="build">Build</h2>
 <p>Regolith packages can be built, signed, and staged from the <code>regolith-builder</code> repository.  See the <a href="https://github.com/regolith-linux/regolith-builder">project's README</a> for details.</p>
+<h2 id="package--between-stock-ubuntu-and-regolith-linux">Package Δ between Stock Ubuntu and Regolith Linux</h2>
+<p>When installing Regolith via PPA, the user has control and visibility over all package changes via their package installation tool of choice, likely <code>apt</code>, <code>dpkg</code>, or <code>synaptic</code>.  However when installing Regolith via the Ubuntu Installer, the user does not see what packages are installed as part of that process.  For Regolith 1.2, the following packages are removed from stock Ubuntu:</p>
+<ul>
+<li>ubuntu-session</li>
+<li>libreoffice-*</li>
+<li>rythmbox-*</li>
+</ul>
+<p>Of course, any of these packages can be re-added by the user after installation using a variety of tools including the app store.</p>
 
 	
 		<style>
@@ -656,7 +683,7 @@
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified January 21, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/0eb3799413f2d4de3fe242d51009d2d4971e4a36">First complete pass at Customize section. (0eb3799)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 22, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/b155a9eccc831d0df44643ff8090dee267227227">First pass at How To section. (b155a9e)</a>
 </div>
 </div>
 

@@ -22,12 +22,27 @@
       <description>
         
         
-        
+        &lt;p&gt;There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise. Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux. This website has vanilla Google Analytics integration.  Anonymity is a feature.&lt;/p&gt;
+
       </description>
     </item>
     
     <item>
-      <title>Docs: Policy and Process</title>
+      <title>Docs: Updates</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/updates/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Regolith Linux is continually being updated with bug fixes and feature enhancements.  Regolith&#39;s configuration files live in various places in &lt;code&gt;/etc&lt;/code&gt;, mainly in &lt;code&gt;/etc/regolith/&lt;/code&gt;.  To customize these files, make copies in your user directory and make changes there.  These files will not be modified by Regolith.  Existing files will not be deleted or modified, allowing the user to merge their customizations as needed.  Notification of upcoming updates that introduce breaking changes will be announced on the &lt;a href=&#34;https://www.freelists.org/list/regolith-linux&#34;&gt;Regolith Linux Announcements mailing list&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Contribute</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/contributions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -35,77 +50,21 @@
       <description>
         
         
-        
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&#39;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. &lt;a href=&#34;https://github.com/kubeflow/website/blob/master/README.md&#34;&gt;Kubeflow&lt;/a&gt; has a great example.&lt;/p&gt;
-&lt;p&gt;Don&#39;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;We use &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; to format and generate our website, the
-&lt;a href=&#34;https://github.com/google/docsy&#34;&gt;Docsy&lt;/a&gt; theme for styling and site structure,
-and &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; to manage the deployment of the site.
-Hugo is an open-source static site generator that provides us with templates,
-content organisation in a standard directory structure, and a website generation
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.&lt;/p&gt;
-&lt;p&gt;All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-&lt;a href=&#34;https://help.github.com/articles/about-pull-requests/&#34;&gt;GitHub Help&lt;/a&gt; for more
-information on using pull requests.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start-with-netlify&#34;&gt;Quick start with Netlify&lt;/h2&gt;
-&lt;p&gt;Here&#39;s a quick guide to updating the docs. It assumes you&#39;re familiar with the
-GitHub workflow and you&#39;re happy to use the automated preview of your doc
-updates:&lt;/p&gt;
+        &lt;p&gt;As an &lt;a href=&#34;https://github.com/regolith-linux&#34;&gt;open source project&lt;/a&gt;, Regolith is open to anyone to extend, fork, or modify as they see fit.  Additionally, we welcome people to join as &lt;a href=&#34;https://github.com/orgs/regolith-linux/people&#34;&gt;contributors&lt;/a&gt; to the project. If you already have something in mind, please file an issue describing the change you&#39;re planning to make to Regolith, or discuss in the &lt;a href=&#34;https://regolith-linux.herokuapp.com/&#34;&gt;Slack channel&lt;/a&gt;.  This ensures work isn&#39;t duplicated or effort wasted.  If you&#39;re interested in seeing what work is available to start with, take a look at the &lt;a href=&#34;https://github.com/regolith-linux/regolith-desktop/labels/help%20wanted&#34;&gt;list of issues looking for help&lt;/a&gt; to see what is needed.  To get a picture of the future, check &lt;a href=&#34;https://regolith-linux.org/news.html#roadmap&#34;&gt;the roadmap&lt;/a&gt;. Regolith is a young project with much potential for improvement!&lt;/p&gt;
+&lt;h2 id=&#34;join-our-slack-channel&#34;&gt;Join our Slack channel&lt;/h2&gt;
+&lt;p&gt;Click &lt;a href=&#34;https://regolith-linux.herokuapp.com/&#34;&gt;this link&lt;/a&gt; to join our Slack channel, which allows you to communicate with the developers of Regolith and other users. Here is where we brainstorm about new features, ways to improve current features, and fix bugs.&lt;/p&gt;
+&lt;h2 id=&#34;install-the-regolith-linuxunstable-ppa&#34;&gt;Install the &lt;code&gt;regolith-linux/unstable&lt;/code&gt; PPA&lt;/h2&gt;
+&lt;p&gt;Development is done in the &lt;code&gt;ppa:regolith-linux/unstable&lt;/code&gt; PPA and then tested before pushed to production in the &lt;code&gt;ppa:regolith-linux/stable&lt;/code&gt; and ultimately &lt;code&gt;ppa:regolith-linux/release&lt;/code&gt; PPA. If you&#39;d like to test fixes that haven&#39;t made it to the stable PPA yet or would just like to always be using the latest updates, the following steps describe how the unstable PPA is added:&lt;/p&gt;
+&lt;p&gt;From your existing Ubuntu 18.04 (Bionic), 19.04 (Disco), or 19.10 (Eoan) system, perform the following installation steps:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Fork the &lt;a href=&#34;https://github.com/google/docsy-example&#34;&gt;Regolith Linux repo&lt;/a&gt; on GitHub.&lt;/li&gt;
-&lt;li&gt;Make your changes and send a pull request (PR).&lt;/li&gt;
-&lt;li&gt;If you&#39;re not yet ready for a review, add &amp;ldquo;WIP&amp;rdquo; to the PR name to indicate
-it&#39;s a work in progress. (&lt;strong&gt;Don&#39;t&lt;/strong&gt; add the Hugo property
-&amp;ldquo;draft = true&amp;rdquo; to the page front matter, because that prevents the
-auto-deployment of the content preview described in the next point.)&lt;/li&gt;
-&lt;li&gt;Wait for the automated PR workflow to do some checks. When it&#39;s ready,
-you should see a comment like this: &lt;strong&gt;deploy/netlify — Deploy preview ready!&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Details&lt;/strong&gt; to the right of &amp;ldquo;Deploy preview ready&amp;rdquo; to see a preview
-of your updates.&lt;/li&gt;
-&lt;li&gt;Continue updating your doc and pushing your changes until you&#39;re happy with
-the content.&lt;/li&gt;
-&lt;li&gt;When you&#39;re ready for a review, add a comment to the PR, and remove any
-&amp;ldquo;WIP&amp;rdquo; markers.&lt;/li&gt;
+&lt;li&gt;First we need to remove the &lt;code&gt;regolith-stable&lt;/code&gt; PPA. Open a terminal, and enter: &lt;br/&gt;&lt;code&gt;sudo add-apt-repository --remove ppa:kgilmer/regolith-stable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Now enter the following to add &lt;code&gt;regolith-unstable&lt;/code&gt;: &lt;br/&gt;&lt;code&gt;sudo add-apt-repository -y ppa:regolith-linux/unstable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;After the sync completes, enter: &lt;br/&gt;&lt;code&gt;sudo apt install regolith-desktop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The following command will need to be ran &lt;br/&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade &amp;amp;&amp;amp; sudo apt full-upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Some packages will be upgraded.  When this completes, reboot.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;updating-a-single-page&#34;&gt;Updating a single page&lt;/h2&gt;
-&lt;p&gt;If you&#39;ve just spotted something you&#39;d like to change while using the docs, Docsy has a shortcut for you:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Click &lt;strong&gt;Edit this page&lt;/strong&gt; in the top right hand corner of the page.&lt;/li&gt;
-&lt;li&gt;If you don&#39;t already have an up to date fork of the project repo, you are prompted to get one - click &lt;strong&gt;Fork this repository and propose changes&lt;/strong&gt; or &lt;strong&gt;Update your Fork&lt;/strong&gt; to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.&lt;/li&gt;
-&lt;li&gt;Follow the rest of the &lt;a href=&#34;#quick-start-with-netlify&#34;&gt;Quick start with Netlify&lt;/a&gt; process above to make, preview, and propose your changes.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;previewing-your-changes-locally&#34;&gt;Previewing your changes locally&lt;/h2&gt;
-&lt;p&gt;If you want to run your own local Hugo server to preview your changes as you work:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Follow the instructions in &lt;a href=&#34;https://kgilmer.github.io/r13-dev-site/docs/getting-started&#34;&gt;Getting started&lt;/a&gt; to install Hugo and any other tools you need. You&#39;ll need at least &lt;strong&gt;Hugo version 0.45&lt;/strong&gt; (we recommend using the most recent available version), and it must be the &lt;strong&gt;extended&lt;/strong&gt; version, which supports SCSS.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fork the &lt;a href=&#34;https://github.com/google/docsy-example&#34;&gt;Regolith Linux repo&lt;/a&gt; repo into your own project, then create a local copy using &lt;code&gt;git clone&lt;/code&gt;. Don’t forget to use &lt;code&gt;--recurse-submodules&lt;/code&gt; or you won’t pull down some of the code you need to generate a working site.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git clone --recurse-submodules --depth 1 https://github.com/google/docsy-example.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Run &lt;code&gt;hugo server&lt;/code&gt; in the site root directory. By default your site will be available at http://localhost:1313/. Now that you&#39;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Continue with the usual GitHub workflow to edit files, commit them, push the
-changes up to your fork, and create a pull request.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;creating-an-issue&#34;&gt;Creating an issue&lt;/h2&gt;
-&lt;p&gt;If you&#39;ve found a problem in the docs, but you&#39;re not sure how to fix it yourself, please create an issue in the &lt;a href=&#34;https://github.com/google/docsy-example/issues&#34;&gt;Regolith Linux repo&lt;/a&gt;. You can also create an issue about a specific page by clicking the &lt;strong&gt;Create Issue&lt;/strong&gt; button in the top right hand corner of the page.&lt;/p&gt;
-&lt;h2 id=&#34;useful-resources&#34;&gt;Useful resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[Docsy user guide](wherever it goes): All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Hugo documentation&lt;/a&gt;: Comprehensive reference for Hugo.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://guides.github.com/activities/hello-world/&#34;&gt;Github Hello World!&lt;/a&gt;: A basic introduction to GitHub concepts and workflow.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;reverting-to-regolith-stable&#34;&gt;Reverting to &lt;code&gt;regolith-stable&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Simply follow the steps #1 and #2 in reverse.  Keep in mind that the package manager will not downgrade your packages, so if you want to just use what&#39;s in &lt;code&gt;regolith-stable&lt;/code&gt;, you may need to uninstall Regolith and reinstall it.  Any configuration files in your user directory will not be altered.&lt;/p&gt;
 
       </description>
     </item>
@@ -119,7 +78,8 @@ changes up to your fork, and create a pull request.&lt;/p&gt;
       <description>
         
         
-        
+        &lt;p&gt;Regolith Linux is an open source project created and maintained by volunteers.  At this time there is no method for getting paid support.  &lt;a href=&#34;https://github.com/regolith-linux/regolith-desktop/issues&#34;&gt;GitHub issues&lt;/a&gt; and the &lt;a href=&#34;https://regolith-linux.herokuapp.com/&#34;&gt;Slack channel&lt;/a&gt; are recommended ways of finding fixes or asking questions.&lt;/p&gt;
+
       </description>
     </item>
     
