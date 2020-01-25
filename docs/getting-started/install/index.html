@@ -26,13 +26,13 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/" />
 <meta property="article:published_time" content="2017-01-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-01-20T19:15:43-08:00" /><meta property="og:site_name" content="Regolith" />
+<meta property="article:modified_time" content="2020-01-24T20:24:08-08:00" /><meta property="og:site_name" content="Regolith" />
 <meta itemprop="name" content="Installation">
 <meta itemprop="description" content="Install Regolith on your computer.
 ">
 <meta itemprop="datePublished" content="2017-01-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-01-20T19:15:43-08:00" />
-<meta itemprop="wordCount" content="144">
+<meta itemprop="dateModified" content="2020-01-24T20:24:08-08:00" />
+<meta itemprop="wordCount" content="331">
 
 
 
@@ -514,6 +514,15 @@
 
 
 
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#option-1-ubuntu-installer">Option 1: Ubuntu Installer</a></li>
+    <li><a href="#option-2-ppa">Option 2: PPA</a></li>
+    <li><a href="#reinstallation">Reinstallation</a></li>
+    <li><a href="#uninstallation-of-regolith-desktop">Uninstallation of regolith-desktop</a></li>
+  </ul>
+</nav>
+
 
 
           </div>
@@ -578,7 +587,42 @@ $ sudo add-apt-repository ppa:regolith-linux/release
 $ sudo apt install regolith-desktop
 </pre>
 <ol start="3">
-<li>Reboot the computer, and when logging in select the &ldquo;Regolith&rdquo; session in the gear menu (⚙️).</li>
+<li>Reboot the computer, and when logging in select the &ldquo;Regolith&rdquo; session in the gear menu (⚙️):</li>
+</ol>
+<p><img src="/r13-dev-site/regolith-screenshot-login.png" alt="Ubuntu Login Screen"></p>
+<h2 id="reinstallation">Reinstallation</h2>
+<p>In the case that the Regolith desktop environment becomes corrupted or otherwise unbootable, follow these steps to reset it.  No user files will be removed as part of this process:</p>
+<ol>
+<li>Login to the stock Ubuntu session.  If this session is not available, install it with <code>sudo apt install ubuntu-session</code>.</li>
+<li>Uninstall Regolith from within the Ubuntu session:</li>
+</ol>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt remove regolith-*
+* sudo apt autoremove
+</code></pre></div><ol start="3">
+<li>Verify that no regolith packages are still installed with <code>apt list --installed | grep -i regolith</code>.  The command should not return any packages.  If it does, manually uninstall them with <code>sudo apt remove &lt;package&gt;</code>.</li>
+<li>Reinstall Regolith:</li>
+</ol>
+<pre><code>$ sudo apt install regolith-desktop
+</code></pre><ol start="5">
+<li>Reboot the computer, and when logging in select the &ldquo;Regolith&rdquo; session in the gear menu.</li>
+</ol>
+<h2 id="uninstallation-of-regolith-desktop">Uninstallation of <code>regolith-desktop</code></h2>
+<p>Simply follow these steps to remove Regolith from your system:</p>
+<ol>
+<li>Log out of the Regolith session and into the default Ubuntu session.</li>
+<li>Open a terminal and run:</li>
+</ol>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt remove regolith-desktop regolith-st <span style="color:#ce5c00;font-weight:bold">&amp;&amp;</span> sudo apt autoremove
+</code></pre></div><ol start="3">
+<li>Now remove the PPA:</li>
+</ol>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo add-apt-repository --remove ppa:regolith-linux/release
+</code></pre></div><ol start="4">
+<li>To restore your GNOME settings, run:</li>
+</ol>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ <span style="color:#204a87">source</span> ~/.regolith-gnome-backup
+</code></pre></div><ol start="5">
+<li>You can safely delete the file <code>~/.config/regolith</code>.</li>
 </ol>
 
 	
@@ -643,7 +687,7 @@ $ sudo apt install regolith-desktop
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified January 20, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/ceb86c484c8ff6ccae6968f770617bd30123fc46">First cut at Getting Started section. (ceb86c4)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 24, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/c0e80b39d602b0d809d510f04890653ca29de107">Add reinstall and uninstall to install page.  Add screenshot of session login. (c0e80b3)</a>
 </div>
 </div>
 
@@ -699,12 +743,6 @@ $ sudo apt install regolith-desktop
   <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack" aria-label="Slack">
     <a class="text-white" target="_blank" href="https://regolith-linux.herokuapp.com/">
       <i class="fab fa-slack"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Internals" aria-label="Internals">
-    <a class="text-white" target="_blank" href="https://github.com/regolith-linux/regolith-desktop/issues">
-      <i class="fas fa-cog"></i>
     </a>
   </li>
   
