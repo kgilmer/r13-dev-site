@@ -17,7 +17,7 @@
     <item>
       <title>Docs: Stage config files</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</guid>
       <description>
@@ -54,7 +54,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Change the super key mapping</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</guid>
       <description>
@@ -74,7 +74,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Change the default terminal</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</guid>
       <description>
@@ -97,7 +97,7 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     <item>
       <title>Docs: Change the bar date/time format</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</guid>
       <description>

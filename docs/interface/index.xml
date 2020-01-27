@@ -4,7 +4,6 @@
     <link>https://kgilmer.github.io/r13-dev-site/docs/interface/</link>
     <description>Recent content in The Interface on Regolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/interface/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +16,7 @@
     <item>
       <title>Docs: Working with Applications</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</guid>
       <description>
@@ -47,7 +46,7 @@
     <item>
       <title>Docs: Notifications</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</guid>
       <description>
@@ -63,7 +62,7 @@
     <item>
       <title>Docs: System Configuration</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</guid>
       <description>
@@ -77,6 +76,7 @@
 &lt;p&gt;Many things about Regolith can be configured in the i3 config file.  It is best to read the &lt;a href=&#34;https://i3wm.org/docs/userguide.html&#34;&gt;i3 user guide&lt;/a&gt; to understand what and how to modify this file.&lt;/p&gt;
 &lt;h2 id=&#34;i3bar&#34;&gt;i3bar&lt;/h2&gt;
 &lt;p&gt;The i3bar configuration is defined in the i3 config file listed directly above, but the i3bar has it&#39;s own configuration for status items.  To change which information is displayed in the bar, the default file is &lt;code&gt;/etc/regolith/i3xrocks/config&lt;/code&gt; and can be overridden by the user by specifying a new path in the i3 config file, as described above.&lt;/p&gt;
+&lt;p&gt;Most status elements in the bar are configured to launch an app upon click that is associated with the data presented by the element.  For example the date/time element will launch the time settings panel in &lt;code&gt;gnome-control-panel&lt;/code&gt;.  These scripts live in &lt;code&gt;/usr/share/i3xrocks&lt;/code&gt; and can be configured as needed.&lt;/p&gt;
 &lt;h2 id=&#34;look&#34;&gt;Look&lt;/h2&gt;
 &lt;p&gt;The look of Regolith is configured via Xresources, that live in &lt;code&gt;/etc/regolith/styles/&lt;/code&gt;.  This topic is covered in detail in the &lt;a href=&#34;../../customize/&#34;&gt;Customize&lt;/a&gt; section of the documentation.&lt;/p&gt;
 &lt;h2 id=&#34;session&#34;&gt;Session&lt;/h2&gt;
@@ -88,7 +88,7 @@
     <item>
       <title>Docs: Advanced</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</guid>
       <description>
@@ -98,6 +98,8 @@
 &lt;p&gt;The bar&#39;s visibility can be toggled with &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;i&lt;/span&gt;&lt;/span&gt;.  This can be useful when wanting to remove all distractions and devote 100% of the screen to one or more applications in your workspace.  Another way of giving one application complete use of the screen is to press &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;f&lt;/span&gt;&lt;/span&gt; to cause the active application to enter full screen mode.&lt;/p&gt;
 &lt;h2 id=&#34;i3-wm-layout-mode&#34;&gt;i3-wm Layout Mode&lt;/h2&gt;
 &lt;p&gt;i3-wm offers a few different layout modes.  &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;t&lt;/span&gt;&lt;/span&gt; can be used to toggle between tabbed, horizontal and vertical split modes.&lt;/p&gt;
+&lt;h2 id=&#34;save-and-restore-window-positions&#34;&gt;Save and Restore Window Positions&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;i3-snapshot&lt;/code&gt; is integrated into Regolith 1.3.  Pressing &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;,&lt;/span&gt;&lt;/span&gt; will write the current window layout to a file in the &lt;code&gt;/tmp&lt;/code&gt; directory. &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;,&lt;/span&gt;&lt;/span&gt; will restore that layout.&lt;/p&gt;
 
       </description>
     </item>

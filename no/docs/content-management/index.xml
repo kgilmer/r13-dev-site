@@ -603,11 +603,30 @@ This is a warning with a title.
     </item>
     
     <item>
-      <title>Docs: Matten til mikroservicer: Hvordan virker det?</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-math-of-microservices-how-does-it-work/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Docs: Steg for steg hjelpeartikler</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-math-of-microservices-how-does-it-work/</guid>
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dette er landingssiden til en seksjon et sted nede i seksjonshierarkiet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Oppsummer&lt;/li&gt;
+&lt;li&gt;Seksjonen din&lt;/li&gt;
+&lt;li&gt;Her&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Innsiden av monografer: De grunnleggende konseptene</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-inside-of-monographs-the-core-concepts/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-inside-of-monographs-the-core-concepts/</guid>
       <description>
         
         
@@ -897,30 +916,11 @@ This is a warning with a title.
     </item>
     
     <item>
-      <title>Docs: Steg for steg hjelpeartikler</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Docs: Matten til mikroservicer: Hvordan virker det?</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-math-of-microservices-how-does-it-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Dette er landingssiden til en seksjon et sted nede i seksjonshierarkiet.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Oppsummer&lt;/li&gt;
-&lt;li&gt;Seksjonen din&lt;/li&gt;
-&lt;li&gt;Her&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Innsiden av monografer: De grunnleggende konseptene</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-inside-of-monographs-the-core-concepts/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-inside-of-monographs-the-core-concepts/</guid>
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/the-math-of-microservices-how-does-it-work/</guid>
       <description>
         
         

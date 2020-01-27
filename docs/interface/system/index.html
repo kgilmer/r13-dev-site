@@ -25,14 +25,12 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kgilmer.github.io/r13-dev-site/docs/interface/system/" />
-<meta property="article:published_time" content="2017-01-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-01-20T20:07:10-08:00" /><meta property="og:site_name" content="Regolith" />
+<meta property="article:modified_time" content="2020-01-26T18:34:44-08:00" /><meta property="og:site_name" content="Regolith" />
 <meta itemprop="name" content="System Configuration">
 <meta itemprop="description" content="Learn how to change settings in the Regolith desktop.
 ">
-<meta itemprop="datePublished" content="2017-01-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-01-20T20:07:10-08:00" />
-<meta itemprop="wordCount" content="358">
+<meta itemprop="dateModified" content="2020-01-26T18:34:44-08:00" />
+<meta itemprop="wordCount" content="406">
 
 
 
@@ -425,6 +423,35 @@
       <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-reference-packages" href="/r13-dev-site/docs/reference/packages/">Packages</a>
       
       
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/r13-dev-site/docs/reference/releases/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Releases</a>
+  </li>
+  <ul>
+    <li class="collapse " id="r13-dev-site-docs-reference-releases">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-r13-dev-site-docs-reference-releases-regolith-1-3-release-notes" href="/r13-dev-site/docs/reference/releases/regolith-1.3-release-notes/">Regolith 1.3 Release Notes</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
     </li>
   </ul>
 </ul>
@@ -574,6 +601,7 @@
 <p>Many things about Regolith can be configured in the i3 config file.  It is best to read the <a href="https://i3wm.org/docs/userguide.html">i3 user guide</a> to understand what and how to modify this file.</p>
 <h2 id="i3bar">i3bar</h2>
 <p>The i3bar configuration is defined in the i3 config file listed directly above, but the i3bar has it's own configuration for status items.  To change which information is displayed in the bar, the default file is <code>/etc/regolith/i3xrocks/config</code> and can be overridden by the user by specifying a new path in the i3 config file, as described above.</p>
+<p>Most status elements in the bar are configured to launch an app upon click that is associated with the data presented by the element.  For example the date/time element will launch the time settings panel in <code>gnome-control-panel</code>.  These scripts live in <code>/usr/share/i3xrocks</code> and can be configured as needed.</p>
 <h2 id="look">Look</h2>
 <p>The look of Regolith is configured via Xresources, that live in <code>/etc/regolith/styles/</code>.  This topic is covered in detail in the <a href="../../customize/">Customize</a> section of the documentation.</p>
 <h2 id="session">Session</h2>
@@ -641,7 +669,7 @@
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified January 20, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/943ee5a9009d1ff1b7d47f40b4f0bfe03fc549be">First pass at Interface section. (943ee5a)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 26, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/151181ca96a081a2fc47176ddf8910f807425cb9">Document clickable blocklets. (151181c)</a>
 </div>
 </div>
 

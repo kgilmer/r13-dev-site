@@ -16,7 +16,7 @@
     <item>
       <title>Docs: Installation</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</guid>
       <description>
@@ -88,7 +88,7 @@ $ sudo apt install regolith-desktop
     <item>
       <title>Docs: Keybindings</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</guid>
       <description>
@@ -251,7 +251,7 @@ $ sudo apt install regolith-desktop
     <item>
       <title>Docs: Look</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/look/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/look/</guid>
       <description>
@@ -301,9 +301,108 @@ $ regolith-look refresh
     </item>
     
     <item>
+      <title>Docs: Privacy</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/privacy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise. Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux. This website has vanilla Google Analytics integration.  Anonymity is a feature.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Regolith 1.3 Release Notes</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/regolith-1.3-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/regolith-1.3-release-notes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Following R1.2, the 1.3 release focused on usability issues reported by users and a continuing refinement of the desktop environment in general, with a focus on making the system easier for those inexperienced with tiling window managers.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;table class=&#34;table&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Cahuella GTK Theme&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&#34;../regolith-screenshot-widgets.png&#34;&gt;&lt;/img&gt;&lt;/td&gt;
+            &lt;td&gt;A new GTK theme was created for Regolith that more closely follows the standard GNOME theme, Adwaita.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Keybindings Dialog&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&#34;../regolith-screenshot-remontoire.png&#34;&gt;&lt;/img&gt;&lt;/td&gt;
+            &lt;td&gt;To allow for a more consistent look and collapsible content for various monitor dimensions, a custom shortcut dialog was developed called Remontoire.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Pluggable Compositors&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;The subsystem providing visual effects, the compositor, can behave differently based on hardware and driver support. Regolith now packages 3 compositor backends: compton-glx (based on Picom), xcompmgr, and none.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;i3-snapshot&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;In office environments it is common to switch between various display configurations (desk, meeting room...).  &lt;code&gt;i3-snapshot&lt;/code&gt; allows the user to quickly save and restore existing window layouts in a session.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;New Rofi theme&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&#34;../regolith-screenshot-rofi.png&#34;&gt;&lt;/img&gt;&lt;/td&gt;
+            &lt;td&gt;Based on &lt;a href=&#34;https://www.reddit.com/r/unixporn/comments/ehdj6b/i3gaps_nordic_beauty/&#34;&gt;work by /u/InfernusZ9&lt;/a&gt;, the Rofi launcher is less distracting.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;New notification UI based on &lt;a href=&#34;https://github.com/DaveDavenport/Rofication&#34;&gt;Rofication&lt;a/&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;The previous notification UI was a hold over from more traditional desktop environments that prefer to present an on-screen dialog when a notification is received. Because user-focus is paramount, this was changed such that an indicator in the bar displays the number of unread notifications and the user decides when to view them via a keybinding or button click.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Floating Control Panel&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;The &lt;code&gt;gnome-control-center&lt;/code&gt; app can have a hard time adapting to constrained tiled layouts common with &lt;code&gt;i3-wm&lt;/code&gt;. Now when the control panel is loaded, it floats above the existing windows to allow for a quick settings change without impacting other apps.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Clickable Bar Status Actions&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;For convienence, the default blocks on the bar will launch configuration apps for the associated block.  For example, the battery block will launch the power settings control panel, and the notification block will launch the notification viewer.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Discrete and packagable Looks&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;The underlying style framework used by Regolith has been revamped to allow for &#34;looks&#34;: colors, themes, typeface, and other thematic state.  Looks can be switched with a single command.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;New bar status components&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Network, keybindings, notifications, focused window, and other blocklets have been improved and added.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Build System&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Build scripts were added and improved to allow for the generation of Regolith packages in an automated fashion, making it easier for others to roll their own.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Website&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;An entirely new website is launching with R1.3, to integrate more content and make it faster for users to find information.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;fixes&#34;&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;i3-gaps-wm: Fix for workspace label bug on startup. Revamping some keybindings based on user feedback.&lt;/li&gt;
+&lt;li&gt;i3xrocks: numerous tweaks and fixes for status indicators.&lt;/li&gt;
+&lt;li&gt;regolith-gnome-flashback: numerous fixes and policy enhancements to session management.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Stage config files</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</guid>
       <description>
@@ -340,7 +439,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Working with Applications</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</guid>
       <description>
@@ -368,23 +467,9 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     </item>
     
     <item>
-      <title>Docs: Privacy</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/privacy/</guid>
-      <description>
-        
-        
-        &lt;p&gt;There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise. Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux. This website has vanilla Google Analytics integration.  Anonymity is a feature.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Basics</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</guid>
       <description>
@@ -421,7 +506,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Change the super key mapping</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</guid>
       <description>
@@ -441,7 +526,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Config Files</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</guid>
       <description>
@@ -502,7 +587,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Notifications</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</guid>
       <description>
@@ -518,7 +603,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Packages</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</guid>
       <description>
@@ -597,7 +682,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Styles</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/styles/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/styles/</guid>
       <description>
@@ -642,7 +727,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     <item>
       <title>Docs: Change the default terminal</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</guid>
       <description>
@@ -665,7 +750,7 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     <item>
       <title>Docs: Compositors</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/compositors/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/compositors/</guid>
       <description>
@@ -694,8 +779,8 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;regolith-compositor-compton-glx&lt;/td&gt;
-&lt;td&gt;Compton&lt;/td&gt;
-&lt;td&gt;The default compositor for Regolith.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/yshui/picom&#34;&gt;Compton&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The default compositor for Regolith.  This compositor is modern, maintained, and handles screen tearing.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;regolith-compositor-xcompmgr&lt;/td&gt;
@@ -705,7 +790,7 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
 &lt;tr&gt;
 &lt;td&gt;regolith-compositor-none&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;A no-op package that does not run a Compositor. Best for absolute UI performance.&lt;/td&gt;
+&lt;td&gt;A no-op package that does not run a Compositor. Best for absolute UI performance, at the cost of visual effects.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -715,31 +800,6 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Log back in and the new compositor should be loaded.  You can verify by checking the process list for &lt;code&gt;xcompmgr&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ps aux &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; grep xcompmgr
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: System Configuration</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;gnome-control-center-also-known-as-codesettingscode&#34;&gt;GNOME control center (also known as &lt;code&gt;Settings&lt;/code&gt;).&lt;/h2&gt;
-&lt;p&gt;A key difference between Regolith and other environments described as minimal is the integration of the GNOME settings backend.  This provides a well-tested, consistent, and friendly way of configuring your environment and computer.  To load the settings app, launch &amp;ldquo;Settings&amp;rdquo; from Rofi or press &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;c&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Settings is a special app in Regolith in that it is launched in floating mode.  This is because typically when loading settings a user is looking to make a specific change and then exit back to their work. Once loaded use the tab sections on the left of the window to select which item you wish to configure.&lt;/p&gt;
-&lt;h2 id=&#34;i3-wm&#34;&gt;i3-wm&lt;/h2&gt;
-&lt;p&gt;The i3 window manager is not part of GNOME and so it&#39;s configuration is not viewable or changable from the GNOME control center.  Rather, the user must edit the config file and reload i3 to make changes.  In Regolith, the i3 config file is at &lt;code&gt;/etc/regolith/i3/config&lt;/code&gt; and users can supply their own copy that will override this default if placed at &lt;code&gt;~/.config/regolith/i3/config&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Many things about Regolith can be configured in the i3 config file.  It is best to read the &lt;a href=&#34;https://i3wm.org/docs/userguide.html&#34;&gt;i3 user guide&lt;/a&gt; to understand what and how to modify this file.&lt;/p&gt;
-&lt;h2 id=&#34;i3bar&#34;&gt;i3bar&lt;/h2&gt;
-&lt;p&gt;The i3bar configuration is defined in the i3 config file listed directly above, but the i3bar has it&#39;s own configuration for status items.  To change which information is displayed in the bar, the default file is &lt;code&gt;/etc/regolith/i3xrocks/config&lt;/code&gt; and can be overridden by the user by specifying a new path in the i3 config file, as described above.&lt;/p&gt;
-&lt;h2 id=&#34;look&#34;&gt;Look&lt;/h2&gt;
-&lt;p&gt;The look of Regolith is configured via Xresources, that live in &lt;code&gt;/etc/regolith/styles/&lt;/code&gt;.  This topic is covered in detail in the &lt;a href=&#34;../../customize/&#34;&gt;Customize&lt;/a&gt; section of the documentation.&lt;/p&gt;
-&lt;h2 id=&#34;session&#34;&gt;Session&lt;/h2&gt;
-&lt;p&gt;When Regolith is initially loaded, a script is run that configures the system and launches &lt;code&gt;i3-wm&lt;/code&gt;.  While it is not recommended to modify this script, it can provide details about how Regolith is structured and what policy it implements when loading configuration.  This file is readable at &lt;code&gt;/usr/bin/i3-gnome-flashback&lt;/code&gt;.  In fact, this script could be considered the initial seed of the Regolith project and was taken from the &lt;a href=&#34;https://github.com/deuill/i3-gnome-flashback&#34;&gt;i3-gnome-flashback&lt;/a&gt; project.&lt;/p&gt;
-
       </description>
     </item>
     
@@ -786,9 +846,35 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     </item>
     
     <item>
+      <title>Docs: System Configuration</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;gnome-control-center-also-known-as-codesettingscode&#34;&gt;GNOME control center (also known as &lt;code&gt;Settings&lt;/code&gt;).&lt;/h2&gt;
+&lt;p&gt;A key difference between Regolith and other environments described as minimal is the integration of the GNOME settings backend.  This provides a well-tested, consistent, and friendly way of configuring your environment and computer.  To load the settings app, launch &amp;ldquo;Settings&amp;rdquo; from Rofi or press &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;c&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Settings is a special app in Regolith in that it is launched in floating mode.  This is because typically when loading settings a user is looking to make a specific change and then exit back to their work. Once loaded use the tab sections on the left of the window to select which item you wish to configure.&lt;/p&gt;
+&lt;h2 id=&#34;i3-wm&#34;&gt;i3-wm&lt;/h2&gt;
+&lt;p&gt;The i3 window manager is not part of GNOME and so it&#39;s configuration is not viewable or changable from the GNOME control center.  Rather, the user must edit the config file and reload i3 to make changes.  In Regolith, the i3 config file is at &lt;code&gt;/etc/regolith/i3/config&lt;/code&gt; and users can supply their own copy that will override this default if placed at &lt;code&gt;~/.config/regolith/i3/config&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Many things about Regolith can be configured in the i3 config file.  It is best to read the &lt;a href=&#34;https://i3wm.org/docs/userguide.html&#34;&gt;i3 user guide&lt;/a&gt; to understand what and how to modify this file.&lt;/p&gt;
+&lt;h2 id=&#34;i3bar&#34;&gt;i3bar&lt;/h2&gt;
+&lt;p&gt;The i3bar configuration is defined in the i3 config file listed directly above, but the i3bar has it&#39;s own configuration for status items.  To change which information is displayed in the bar, the default file is &lt;code&gt;/etc/regolith/i3xrocks/config&lt;/code&gt; and can be overridden by the user by specifying a new path in the i3 config file, as described above.&lt;/p&gt;
+&lt;p&gt;Most status elements in the bar are configured to launch an app upon click that is associated with the data presented by the element.  For example the date/time element will launch the time settings panel in &lt;code&gt;gnome-control-panel&lt;/code&gt;.  These scripts live in &lt;code&gt;/usr/share/i3xrocks&lt;/code&gt; and can be configured as needed.&lt;/p&gt;
+&lt;h2 id=&#34;look&#34;&gt;Look&lt;/h2&gt;
+&lt;p&gt;The look of Regolith is configured via Xresources, that live in &lt;code&gt;/etc/regolith/styles/&lt;/code&gt;.  This topic is covered in detail in the &lt;a href=&#34;../../customize/&#34;&gt;Customize&lt;/a&gt; section of the documentation.&lt;/p&gt;
+&lt;h2 id=&#34;session&#34;&gt;Session&lt;/h2&gt;
+&lt;p&gt;When Regolith is initially loaded, a script is run that configures the system and launches &lt;code&gt;i3-wm&lt;/code&gt;.  While it is not recommended to modify this script, it can provide details about how Regolith is structured and what policy it implements when loading configuration.  This file is readable at &lt;code&gt;/usr/bin/i3-gnome-flashback&lt;/code&gt;.  In fact, this script could be considered the initial seed of the Regolith project and was taken from the &lt;a href=&#34;https://github.com/deuill/i3-gnome-flashback&#34;&gt;i3-gnome-flashback&lt;/a&gt; project.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Advanced</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</guid>
       <description>
@@ -798,6 +884,8 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
 &lt;p&gt;The bar&#39;s visibility can be toggled with &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;i&lt;/span&gt;&lt;/span&gt;.  This can be useful when wanting to remove all distractions and devote 100% of the screen to one or more applications in your workspace.  Another way of giving one application complete use of the screen is to press &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;f&lt;/span&gt;&lt;/span&gt; to cause the active application to enter full screen mode.&lt;/p&gt;
 &lt;h2 id=&#34;i3-wm-layout-mode&#34;&gt;i3-wm Layout Mode&lt;/h2&gt;
 &lt;p&gt;i3-wm offers a few different layout modes.  &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;t&lt;/span&gt;&lt;/span&gt; can be used to toggle between tabbed, horizontal and vertical split modes.&lt;/p&gt;
+&lt;h2 id=&#34;save-and-restore-window-positions&#34;&gt;Save and Restore Window Positions&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;i3-snapshot&lt;/code&gt; is integrated into Regolith 1.3.  Pressing &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;,&lt;/span&gt;&lt;/span&gt; will write the current window layout to a file in the &lt;code&gt;/tmp&lt;/code&gt; directory. &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;,&lt;/span&gt;&lt;/span&gt; will restore that layout.&lt;/p&gt;
 
       </description>
     </item>
@@ -805,7 +893,7 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     <item>
       <title>Docs: Change the bar date/time format</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</guid>
       <description>
@@ -859,7 +947,7 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     <item>
       <title>Docs: Components</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/components/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/components/</guid>
       <description>
@@ -926,7 +1014,7 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     <item>
       <title>Docs: Packages</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/packages/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/packages/</guid>
       <description>

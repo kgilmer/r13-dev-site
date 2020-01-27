@@ -309,11 +309,11 @@ This is a warning with a title.
     </item>
     
     <item>
-      <title>Docs: Detaljert om kryptografi: De grunnleggende konseptene</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Docs: Detaljert om Go: Hvordan virker det?</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-go-how-does-it-work/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts/</guid>
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-go-how-does-it-work/</guid>
       <description>
         
         
@@ -603,11 +603,11 @@ This is a warning with a title.
     </item>
     
     <item>
-      <title>Docs: Detaljert om Go: Hvordan virker det?</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-go-how-does-it-work/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Docs: Detaljert om kryptografi: De grunnleggende konseptene</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-go-how-does-it-work/</guid>
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts/</guid>
       <description>
         
         

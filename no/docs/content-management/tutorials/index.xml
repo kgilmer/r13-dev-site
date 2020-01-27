@@ -603,11 +603,11 @@ This is a warning with a title.
     </item>
     
     <item>
-      <title>Docs: Innsiden av kryptografi: De grunnleggende konseptene</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Docs: Innsiden av mikroservicer: De grunnleggende konseptene</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts/</guid>
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts/</guid>
       <description>
         
         
@@ -897,11 +897,11 @@ This is a warning with a title.
     </item>
     
     <item>
-      <title>Docs: Innsiden av mikroservicer: De grunnleggende konseptene</title>
-      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Docs: Innsiden av kryptografi: De grunnleggende konseptene</title>
+      <link>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts/</guid>
+      <guid>https://kgilmer.github.io/r13-dev-site/no/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts/</guid>
       <description>
         
         

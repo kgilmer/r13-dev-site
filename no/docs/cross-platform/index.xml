@@ -4,7 +4,6 @@
     <link>https://kgilmer.github.io/r13-dev-site/no/docs/cross-platform/</link>
     <description>Recent content in Flere plattformer on Regolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://kgilmer.github.io/r13-dev-site/no/docs/cross-platform/index.xml" rel="self" type="application/rss+xml" />
     
@@ -918,7 +917,7 @@ This is a warning with a title.
     <item>
       <title>Docs: Detaljert om kryptografi: Detaljert spesifikasjon</title>
       <link>https://kgilmer.github.io/r13-dev-site/no/docs/cross-platform/in-depth-cryptography-detailed-spec/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/no/docs/cross-platform/in-depth-cryptography-detailed-spec/</guid>
       <description>
@@ -1212,7 +1211,7 @@ This is a warning with a title.
     <item>
       <title>Docs: Praktiske eksempler</title>
       <link>https://kgilmer.github.io/r13-dev-site/no/docs/cross-platform/examples/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/no/docs/cross-platform/examples/</guid>
       <description>

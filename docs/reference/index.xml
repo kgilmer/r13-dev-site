@@ -16,7 +16,7 @@
     <item>
       <title>Docs: Keybindings</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</guid>
       <description>
@@ -179,7 +179,7 @@
     <item>
       <title>Docs: Config Files</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</guid>
       <description>
@@ -240,7 +240,7 @@
     <item>
       <title>Docs: Packages</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</guid>
       <description>
@@ -312,6 +312,20 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Releases</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Release notes and other version-specific content can be found here.&lt;/p&gt;
 
       </description>
     </item>

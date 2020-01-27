@@ -4,27 +4,17 @@
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</loc>
-    <lastmod>2020-01-24T20:24:08-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</loc>
-    <lastmod>2020-01-22T21:35:31-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/customize/look/</loc>
-    <lastmod>2020-01-20T22:38:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</loc>
-    <lastmod>2020-01-22T21:12:52-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</loc>
-    <lastmod>2020-01-20T20:07:10-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
@@ -38,38 +28,53 @@
   </url>
   
   <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/regolith-1.3-release-notes/</loc>
+    <lastmod>2020-01-26T18:34:44-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</loc>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</loc>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</loc>
-    <lastmod>2020-01-20T19:15:43-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</loc>
-    <lastmod>2020-01-22T21:12:52-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</loc>
-    <lastmod>2020-01-22T21:35:31-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</loc>
-    <lastmod>2020-01-20T20:07:10-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</loc>
-    <lastmod>2020-01-22T21:35:31-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/customize/styles/</loc>
-    <lastmod>2020-01-21T20:23:06-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/getting-started/</loc>
     <lastmod>2020-01-20T19:15:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</loc>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</loc>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/customize/styles/</loc>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
@@ -79,22 +84,12 @@
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</loc>
-    <lastmod>2020-01-22T21:12:52-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/customize/compositors/</loc>
-    <lastmod>2020-01-21T20:23:06-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/</loc>
-    <lastmod>2020-01-20T20:07:10-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</loc>
-    <lastmod>2020-01-20T20:07:10-08:00</lastmod>
+    <lastmod>2020-01-26T17:43:42-08:00</lastmod>
   </url>
   
   <url>
@@ -103,23 +98,33 @@
   </url>
   
   <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/</loc>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/support/</loc>
     <lastmod>2020-01-22T21:45:46-08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</loc>
+    <lastmod>2020-01-26T18:34:44-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</loc>
-    <lastmod>2020-01-20T20:07:10-08:00</lastmod>
+    <lastmod>2020-01-26T17:43:42-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</loc>
-    <lastmod>2020-01-22T21:12:52-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/customize/components/</loc>
-    <lastmod>2020-01-21T20:23:06-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
@@ -129,7 +134,7 @@
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/customize/packages/</loc>
-    <lastmod>2020-01-24T20:24:08-08:00</lastmod>
+    <lastmod>2020-01-25T09:37:02-08:00</lastmod>
   </url>
   
   <url>
@@ -140,6 +145,11 @@
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/</loc>
     <lastmod>2020-01-22T21:35:31-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</loc>
+    <lastmod>2020-01-26T14:10:36-08:00</lastmod>
   </url>
   
   <url>
@@ -179,7 +189,7 @@
   
   <url>
     <loc>https://kgilmer.github.io/r13-dev-site/</loc>
-    <lastmod>2020-01-24T20:56:49-08:00</lastmod>
+    <lastmod>2020-01-26T12:47:07-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"

@@ -16,7 +16,7 @@
     <item>
       <title>Docs: Look</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/look/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/look/</guid>
       <description>
@@ -68,7 +68,7 @@ $ regolith-look refresh
     <item>
       <title>Docs: Styles</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/styles/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/styles/</guid>
       <description>
@@ -99,7 +99,7 @@ $ regolith-look refresh
     <item>
       <title>Docs: Compositors</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/compositors/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/compositors/</guid>
       <description>
@@ -128,8 +128,8 @@ $ regolith-look refresh
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;regolith-compositor-compton-glx&lt;/td&gt;
-&lt;td&gt;Compton&lt;/td&gt;
-&lt;td&gt;The default compositor for Regolith.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/yshui/picom&#34;&gt;Compton&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The default compositor for Regolith.  This compositor is modern, maintained, and handles screen tearing.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;regolith-compositor-xcompmgr&lt;/td&gt;
@@ -139,7 +139,7 @@ $ regolith-look refresh
 &lt;tr&gt;
 &lt;td&gt;regolith-compositor-none&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;A no-op package that does not run a Compositor. Best for absolute UI performance.&lt;/td&gt;
+&lt;td&gt;A no-op package that does not run a Compositor. Best for absolute UI performance, at the cost of visual effects.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -155,7 +155,7 @@ $ regolith-look refresh
     <item>
       <title>Docs: Components</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/components/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/components/</guid>
       <description>
@@ -222,7 +222,7 @@ $ regolith-look refresh
     <item>
       <title>Docs: Packages</title>
       <link>https://kgilmer.github.io/r13-dev-site/docs/customize/packages/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kgilmer.github.io/r13-dev-site/docs/customize/packages/</guid>
       <description>
